@@ -1,0 +1,25 @@
+Microsoft HTML Help Compiler 4.74.8702
+
+Compiling c:\Users\damien\Desktop\MMF2\windows-edif-master_F25\Extensions\SoundTouch\SoundTouch_Help\SoundTouch.chm
+
+htm\index.htm
+htm\desc.htm
+htm\prop.htm
+htm\act.htm
+htm\cnd.htm
+htm\exp.htm
+ext_cnt.hhc
+ext_index.hhk
+Htm\errors.htm
+Htm\license.htm
+htm\Images\Icon.png
+
+Compile time: 0 minutes, 0 seconds
+10	Topics
+37	Local links
+1	Internet link
+1	Graphic
+
+
+Created c:\Users\damien\Desktop\MMF2\windows-edif-master_F25\Extensions\SoundTouch\SoundTouch_Help\SoundTouch.chm, 36,289 bytes
+Compression decreased file by 2,573 bytes.

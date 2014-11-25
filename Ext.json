@@ -1,0 +1,115 @@
+{
+    "About": {
+        "Name": "SoundTouch",
+        "Author": "ConceptGame",
+        "Copyright": "Copyright (C) 2013 ConceptGame",
+        "Comment": "SoundTouch can change the Tempo, Pitch and Playback Rates of audio files",
+        "URL": "",
+        "Help": "Help/SoundTouch/SoundTouch.chm",
+        "Identifier": "SNDT",
+		"Dependencies":["SoundTouch.dll"]
+    },
+    "ActionMenu": [
+        "Separator",
+		[
+            0,
+            "Change Tempo"
+        ],
+		[
+            1,
+            "Change Pitch"
+        ],
+		[
+            2,
+            "Change PlayBackRate"
+        ],
+        "Separator"
+    ],
+	"ConditionMenu": [
+		"Separator",
+        [
+            0,
+            "OnError"
+        ],
+		"Separator"
+    ],
+    "ExpressionMenu": [
+        [
+            0,
+            "Version"
+        ],
+		[
+            1,
+            "Last Error"
+        ]
+	],
+    "Actions": [
+        {
+            "Title": "Tempo=%2 on %0 file to %1 output file",
+            "Parameters": [
+				[
+                    "String",
+                    "InFileName"
+                ],
+				[
+                    "String",
+                    "OutFileName"
+                ],
+                [
+                    "Float",
+                    "Tempo"
+                ]
+            ]
+        },
+		 {
+            "Title": "Pitch=%2 on %0 file to %1 output file",
+            "Parameters": [
+				[
+                    "String",
+                    "InFileName"
+                ],
+				[
+                    "String",
+                    "OutFileName"
+                ],
+                [
+                    "Float",
+                    "Pitch"
+                ]
+            ]
+        },
+		 {
+            "Title": "Rate=%2 on %0 file to %1 output file",
+            "Parameters": [
+				[
+                    "String",
+                    "InFileName"
+                ],
+				[
+                    "String",
+                    "OutFileName"
+                ],
+                [
+                    "Float",
+                    "Rate"
+                ]
+            ]
+        }
+    ],
+	"Conditions": [
+        {
+            "Title": "%o : On Error",
+            "Triggered": false
+        }
+    ],
+    "Expressions": [
+        {
+            "Title": "Version(",
+            "Returns": "Integer"
+        },
+		{
+            "Title": "LastError$(",
+            "Returns": "Text"
+        }
+    ]
+}

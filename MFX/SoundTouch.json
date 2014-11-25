@@ -1,0 +1,21 @@
+﻿{
+	"mfxname" : "SoundTouch",
+	"name" : "SoundTouch",
+	"author" : "ConceptGame",
+	"description" : "SoundTouch can change the Tempo, Pitch and Playback Rates of audio files",
+	"website" : "",
+	"dev" : "no",
+	"platforms" : "win",
+	"time" : "2014.01.28:12.46.20",
+	"download" : "soundtouch",
+	"zipsize" : "1028137",
+	"files" : [
+		"Data/Runtime/Unicode/SoundTouch.dll",
+		"Data/Runtime/Unicode/SoundTouch.mfx",
+		"Examples/SoundTouch/SoundTouch.mfa",
+		"Examples/SoundTouch/testIn.wav",
+		"Extensions/Unicode/SoundTouch.dll",
+		"Extensions/Unicode/SoundTouch.mfx",
+		"Help/SoundTouch/SoundTouch.chm",
+	]
+}
